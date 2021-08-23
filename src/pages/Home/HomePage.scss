@@ -1,13 +1,13 @@
 #home {
-    
+
     h1,h2,h3,h4,h5 {
-        font-family: 'filson-soft';        
+        font-family: 'filson-soft';
         font-weight: 400
     }
 
     .hero {
-        margin-top : -78.50px;        
-        background-color: $background;  
+        margin-top : -78.50px;
+        background-color: $background;
 
         @media( max-width: $sm ) {
             margin-top: -144px;
@@ -22,7 +22,7 @@
             @media( max-width: $sm ) {
                 padding-left: 0px;
                 padding-right: 0px;
-            }            
+            }
 
             .title {
                 margin-top: 116px;
@@ -31,9 +31,9 @@
                 @media( max-width: $sm ) {
                     padding-left: 16px;
                     padding-right: 16px;
-                }                            
+                }
 
-                h1 {                
+                h1 {
                     font-family: 'filson-soft';
                     font-weight: 900 !important;
                     font-size: 48px !important;
@@ -70,7 +70,7 @@
                     padding-left: 0px !important;
                     padding-right: 6px !important;
                 }
-            
+
                 .image {
                     height: max-content;
                     position: relative;
@@ -93,17 +93,17 @@
                         margin: unset;
                         max-width:54%;
                         height: auto;
-                        text-align:left;                        
+                        text-align:left;
                         z-index: 2;
-                    }                    
-                    
-                    img {                        
+                    }
+
+                    img {
                         float:right;
                         bottom: 0px;
                         margin-top: 12%;
                         width: 70%;
                         height: auto;
-                        z-index: 1;                        
+                        z-index: 1;
                     }
                 }
             }
@@ -159,7 +159,7 @@
 
             @media( max-width: $md ) {
                 height: 32px;
-                font-size: 24px;                
+                font-size: 24px;
             }
         }
 
@@ -259,10 +259,10 @@
             font-size: 32px;
             font-weight: 600;
             line-height: 31.97px;
-            text-align: left;            
+            text-align: left;
             color: $textcolor;
             text-align: center;
-            
+
             @media( max-width: $sm ) {
                 margin-top: 96px;
                 font-size: 24px;
@@ -291,12 +291,12 @@
         }
 
         .cta > form {
-            margin-top: 32px;            
+            margin-top: 32px;
             display: flex;
             justify-content: center;
 
             @media( max-width: $sm ) {
-                flex-direction: column;                
+                flex-direction: column;
                 align-items: center;
             }
 
@@ -305,21 +305,21 @@
                 border: 2px solid #EEEEF2;
                 box-sizing: border-box;
                 box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
-                border-radius: 28px 0px 0px 28px;    
+                border-radius: 28px 0px 0px 28px;
                 width: 344px;
-                height: 56px;            
+                height: 56px;
                 margin: 0px 4px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: flex-start;
-                padding: 10px 16px 10px 24px;                
+                padding: 10px 16px 10px 24px;
 
                 @media( max-width: $sm ) {
                     width: 288px;
                     border-radius: 28px;
                     margin: 0px;
-                    
+
                 }
             }
 
@@ -328,9 +328,9 @@
                 flex-direction: row;
                 align-items: center;
                 padding: 0px 24px 0px 16px;
-                
+
                 width: 173px;
-                height: 56px;                
+                height: 56px;
                 background: $secondary;
                 border-radius: 0px 28px 28px 0px;
                 font-family: 'Inter';
@@ -338,9 +338,9 @@
                 line-height: 19.36px;
                 flex: none;
                 order: 1;
-                flex-grow: 0;    
+                flex-grow: 0;
                 border: unset;
-                
+
                 @media( max-width: $sm ) {
                     padding: 0px 24px 0px 24px;
                     margin-top: 16px;
@@ -381,14 +381,14 @@
             .testimonial-item {
                 padding: 235px 16px 171.28px 16px;
                 height: 600px;
-                position: relative;                
+                position: relative;
 
                 @media( max-width: $sm ) {
                     padding: 126px 28px 43.28px;
                     height: 408px;
                 }
-                
-                .testimonial-item-text {  
+
+                .testimonial-item-text {
                     font-family: 'Inter';
                     font-size: 24px;
                     font-weight: 400;
@@ -419,8 +419,8 @@
                     }
                 }
 
-                .testimonial-item-icon {                    
-                    text-align: right;                    
+                .testimonial-item-icon {
+                    text-align: right;
                     position: absolute;
                     right: 0px;
                     bottom: 25%;
@@ -431,8 +431,8 @@
 
                     img {
                         width: 62.07px;
-                        height: 50.72px;       
-                        
+                        height: 50.72px;
+
                         @media( max-width: $sm ) {
                             margin-top: 35.72px;
                             width: 58.74px;
@@ -454,7 +454,7 @@
                 @media( max-width: $sm ) {
                     height: 32px;
                     width: 32px;
-                    
+
                     &:first-child {
                         padding-left: 16px;
                     }
@@ -495,16 +495,17 @@
                 margin-top: 100px;
             }
 
-            .known-image {                
+            .known-image {
                 padding: 0px;
                 max-width: 517px;
                 width: 50%;
                 padding-bottom: 57px;
 
                 @media( max-width: $md ) {
-                    padding: 0px 14px 57px;
-                    margin-top: 24px;
-                    width: 100%;
+                  padding: 0px;
+                  max-width: 517px;
+                  width: 50%;
+                  padding-bottom: 57px;
                 }
 
                 img {
@@ -542,19 +543,19 @@
                     font-size: 24px;
                     font-weight: 700;
                     line-height: 29px;
-                    text-align: left;     
-                    color: $textcolor;               
+                    text-align: left;
+                    color: $textcolor;
                 }
 
                 .known-content-text {
                     margin-top: 28px;
                     font-family: 'Inter';
-                    font-size: 18px;                    
+                    font-size: 18px;
                     font-weight: 400;
                     line-height: 22px;
                     text-align: left;
                     letter-spacing: 0.6;
-                    color: #4A4A4A;                    
+                    color: #4A4A4A;
                 }
 
                 .buttons_stores{
@@ -600,7 +601,7 @@
             margin-bottom: 14.68px;
 
             @media( max-width: $md ) {
-                padding-left: 33%;                
+                padding-left: 33%;
             }
 
             img {
@@ -644,7 +645,7 @@
 /*
                 &:hover {
                     background-color: $secondary;
-                    
+
                     .more {
                         text-decoration: underline;
                     }
@@ -659,18 +660,18 @@
                 @media( max-width: $sm ) {
                     padding: 32px !important;
                 }
-            
+
             }
 
             .carousel {
                 width: 100%;
-                
+
                 top: 0px;
                 left: 0px;
                 bottom: 0px;
                 right: 0px;
                 z-index: 2;
-                              
+
                 .slide {
                     justify-content: center;
                     align-items: center;
@@ -722,9 +723,9 @@
             }
             .answer {
                 padding: 3% 8%;
-                width: 100%;                
+                width: 100%;
                 background-color: white;
-                display: flex;                
+                display: flex;
                 justify-content: center;
                 align-items: center;
                 transition: all ease-in 0.3s;
@@ -732,14 +733,14 @@
 
                 @media( max-width: $md ) {
                     margin-top: 12px;
-                    padding: 16px 32px;      
+                    padding: 16px 32px;
                     height: 400px;
                     flex-direction: column;
 
                     &.reversible {
                         flex-direction: column-reverse;
                     }
-                    
+
                 }
 
                 .answer-image {
@@ -763,7 +764,7 @@
                         @media( max-width: $sm ) {
                             width: auto;
                             height: 170px;
-                            margin-bottom: 20px;                            
+                            margin-bottom: 20px;
                         }
                     }
                 }
@@ -775,17 +776,17 @@
                     @media( max-width: $sm ) {
 
                     }
-                    
+
                     .answer-content-title {
                         font-family: 'filson-soft';
                         font-size: 26px;
                         font-weight: 400;
                         line-height: 26px;
-                        text-align: left; 
-                        color: $textcolor;     
-                        
+                        text-align: left;
+                        color: $textcolor;
+
                         @media( max-width: $sm ) {
-                            
+
                         }
                     }
 
@@ -796,9 +797,9 @@
                         font-weight: 400;
                         line-height: 22px;
                         text-align: left;
-                        color: #4A4A4A;         
-                        max-width: 396px;     
-                        
+                        color: #4A4A4A;
+                        max-width: 396px;
+
                         @media( max-width: $sm ) {
                             font-size: 14px;
                             line-height: 17px;
@@ -820,13 +821,13 @@
                         @media( max-width: $sm ) {
                             font-size: 16px;
                             line-height: 19px;
-                        }                        
+                        }
                     }
 
                     .answer-content-link:hover{
-                        border-bottom: 2px solid $primary;                        
+                        border-bottom: 2px solid $primary;
                     }
-                    
+
                 }
 
                 .answer-close {
@@ -851,27 +852,27 @@
                 padding-left: 16px;
                 padding-right: 16px;
             }
-            
+
             .resume-item {
                 justify-content: center;
                 margin: 0px;
                 display: flex;
-                flex-direction: row;        
+                flex-direction: row;
                 padding-top: 24px;
 
                 @media( max-width: $md ) {
                     align-items: center;
                     &.reversible {
-                        flex-direction: column-reverse;                    
+                        flex-direction: column-reverse;
                     }
 
-                }                
+                }
 
                 .resume-item-image {
                     max-height: 320px;
                     max-width: 320px;
                     text-align: right;
-                    padding: 0px;                    
+                    padding: 0px;
                     img {
                         width: 100%;
                     }
@@ -906,7 +907,7 @@
                     .resume-item-content-text {
                         margin-top: 16px;
                         font-family: 'Inter';
-                        font-size: 18px;                        
+                        font-size: 18px;
                         font-weight: 400;
                         line-height: 20px;
                         text-align: left;
@@ -932,7 +933,7 @@
             font-size: 32px;
             font-weight: 900;
             line-height: 39px;
-            text-align: center;                     
+            text-align: center;
             color: $textcolor;
 
             @media( max-width: $sm ) {
@@ -977,22 +978,22 @@
                 border: 2px solid #EEEEF2;
                 box-sizing: border-box;
                 box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
-                border-radius: 28px 0px 0px 28px;    
+                border-radius: 28px 0px 0px 28px;
                 width: 344px;
-                height: 56px;            
+                height: 56px;
                 margin: 0px 4px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: flex-start;
-                padding: 10px 16px 10px 24px;        
-                
+                padding: 10px 16px 10px 24px;
+
                 @media( max-width: $sm ) {
                     width: 288px;
                     margin: 0px;
                     border-radius: 28px;
                     padding: 10px 16px;
-                }                
+                }
             }
 
             button {
@@ -1000,18 +1001,18 @@
                 flex-direction: row;
                 align-items: center;
                 padding: 0px 24px 0px 16px;
-                
+
                 width: 173px;
-                height: 56px;                
+                height: 56px;
                 background: $secondary;
                 border-radius: 0px 28px 28px 0px;
                 font-family: 'Inter';
                 font-size: 16px;
-                line-height: 19.36px;                
+                line-height: 19.36px;
                 flex: none;
                 order: 1;
-                flex-grow: 0;    
-                border: unset;          
+                flex-grow: 0;
+                border: unset;
 
                 @media( max-width: $sm ) {
                     margin-top: 16px;
@@ -1033,13 +1034,13 @@
             @media( max-width: $sm ) {
                 margin-bottom: 29px;
             }
-        }        
-    }    
+        }
+    }
 
 
   .cPSmpo{
     position: fixed;
-  }    
+  }
 }
 
 .fade-enter-active, .fade-leave-active {
