@@ -1,9 +1,9 @@
 <div id='home'>
-    
+
 	<section class='hero'>
 
 		<div class = 'content row'>
-		
+
 			<div class='title col-12 col-md-6'>
 				<h1 class='title_up'>
 					Liquida tus deudas
@@ -30,8 +30,9 @@
 			</div>
 
 			<div class='col-12 col-md-6 image-container'>
-				<div class='image'>					
-					<lottie-player src="js/APPv2.json" class='lottie' background="transparent" speed="1" loop="" autoplay=""></lottie-player>
+				<div class='image'>
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets1.lottiefiles.com/packages/lf20_xf6t4xtz.json"  background="transparent"  speed="1"  style="width: ; height: ;"  loop  ></lottie-player>
 					<img src='images/hero_image.webp' />
 				</div>
 			</div>
@@ -54,57 +55,57 @@
 				<div class='onboarding-item-icon'>
 					<img src='images/descarga_app_icon.png' />
 				</div>
-				
+
 				<div class='onboarding-item-title'>
 					Descarga<br/>la App
 				</div>
 
 				<div class='onboarding-item-subtitle'>
 					Cuéntame tu caso a detalle y te ayudaré mejor.
-				</div>				
+				</div>
 			</div>
-			
+
 			<div class='onboarding-item col-12 col-md-3'>
 				<div class='onboarding-item-icon'>
 					<img src='images/descarga_historial_icon.png' />
 				</div>
-				
+
 				<div class='onboarding-item-title'>
 					Descarga<br/>tu historial
 				</div>
 
 				<div class='onboarding-item-subtitle'>
 					Te ayuda a saber lo que tu historial dice de ti.
-				</div>				
+				</div>
 			</div>
-			
+
 			<div class='onboarding-item col-12 col-md-3'>
 				<div class='onboarding-item-icon'>
 					<img src='images/arma_tu_plan_icon.png' />
 				</div>
-				
+
 				<div class='onboarding-item-title'>
 					Arma tu plan<br/>a medida
 				</div>
 
 				<div class='onboarding-item-subtitle'>
 					Cada situación es distinta, elijamos tu mejor camino.
-				</div>				
+				</div>
 			</div>
-			
+
 			<div class='onboarding-item col-12 col-md-3'>
 				<div class='onboarding-item-icon'>
 					<img src='images/liberate_deudas_icon.png' />
 				</div>
-				
+
 				<div class='onboarding-item-title'>
 					Libérate<br/>de las deudas
 				</div>
 
 				<div class='onboarding-item-subtitle'>
 					Vayamos paso a paso desde tu celular.
-				</div>				
-			</div>			
+				</div>
+			</div>
 		</div>
 
 	</section>
@@ -127,7 +128,7 @@
                 method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate">
 
 				<input type='email' name='EMAIL' id='mce-EMAIL' placeholder="Ingresa tu mail" required />
-				
+
 				<div style="position: absolute; left: -5000px;" aria-hidden="true">
                     <input type="text" name="b_fabd70ef5da2f266d30e78746_8e709718b0" tabindex="-1" value="">
 					<input type='text' name='tags' value='WEB B' />
@@ -135,10 +136,10 @@
 
 				<button class='button' type='submit'>Quiero saber más</button>
 
-			</form>			
+			</form>
 			<div class='cta-message'></div>
 		</div>
-		
+
 
 	</section>
 
@@ -148,28 +149,28 @@
 
 			<div class='testimonials-left-arrow arrow' @click='prev()'>
 				<img src='images/left_arrow_icon.png' />
-			</div>		
+			</div>
 
 			<div class='testimonial-item' style='width: 580px;'>
 				<div class='testimonial-content'>
 					<div class='testimonial-item-text'>
-						{{ testimonials[ actualIndex ].text }}						
+						{{ testimonials[ actualIndex ].text }}
 					</div>
 
 					<div class='testimonial-item-author'>
 						{{ testimonials[ actualIndex ].author }}
-					</div>				
+					</div>
 				</div>
 
 				<div class='testimonial-item-icon'>
 					<img src='images/quotes_icon.png' />
-				</div>	
+				</div>
 
 			</div>
 
 			<div class='testimonials-right-arrow arrow' @click='next()'>
 				<img src='images/right_arrow_icon.png' />
-			</div>		
+			</div>
 
 		</div>
 
@@ -191,7 +192,7 @@
 				</div>
 
 				<div class='known-content-text'>
-					Por eso, yo y mi equipo, cuidamos tu información como lo más valorado de todo el proceso de solución a tu caso.
+					Por eso, mi equipo y yo, cuidamos tu información como lo más valorado de todo el proceso de solución a tu caso.
 				</div>
 
 				<div class='play_store'>
@@ -204,7 +205,7 @@
 							<img src='images/app_store_icon.svg' />
 						</a>
 					</div>
-				</div>				
+				</div>
 
 			</div>
 
@@ -230,55 +231,55 @@
 				<VueAgile class='carousel'>
 					<div class='slide'>
 						<div class='col-12 answer answer1 reversible'>
-						
+
 							<div class='answer-content'>
-		
+
 								<div class='answer-content-title'>
 									No compartimos<br/>tus datos
 								</div>
-		
+
 								<div class='answer-content-text'>
 									Imagínate que tú nos dices un secreto y en automático nos fuera imposible contarlo.
 									<br/><br/>
 									Algo así pasa con tus datos, no los compartimos con ninguna empresa o institución sin tu permiso.
 								</div>
-		
+
 								<div class='answer-content-link' @click='goTo( "faqs" )'>
 									Saber más
 								</div>
-		
+
 							</div>
-		
+
 							<div class='answer-image'>
 								<img src='images/no_compartir_datos.png' />
 							</div>
-							
+
 						</div>
 					</div>
 					<div class='slide'>
 						<div class='col-12 answer answer2'>
-						
+
 							<div class='answer-image' style='margin-right: 10px;'>
 								<img src='images/datos_seguros_image.png' />
 							</div>
-		
+
 							<div class='answer-content'>
-		
+
 								<div class='answer-content-title'>
 									Tus datos siempre<br/>seguros
 								</div>
-		
+
 								<div class='answer-content-text' style='max-width: 271px;'>
-									Recuerda, tus accesos están encriptados y solo tú puedes hacer uso de ellos. ¿Ves? Todo bajo control.						
+									Recuerda, tus accesos están encriptados y solo tú puedes hacer uso de ellos. ¿Ves? Todo bajo control.
 								</div>
-		
+
 								<div class='answer-content-link' @click='goTo( "faqs" )'>
 									Saber más
 								</div>
-		
+
 							</div>
-							
-						</div>		
+
+						</div>
 					</div>
 
 					<template class='arrow prev' slot='prevButton'>
@@ -290,13 +291,13 @@
 					</template>
 				</VueAgile>
 			</transition>
-		
+
 		</div>
 
 	</section>
 
 	<section class='resume'>
-		
+
 		<div class='content'>
 
 			<div class='resume-item row'>
@@ -315,7 +316,7 @@
 
 					<div class='resume-item-content-text'>
 						Cobranza no entiende tu situación, pero yo sí y te ayudaré a recuperar tu tranquilidad.
-					</div>					
+					</div>
 
 				</div>
 
@@ -331,16 +332,16 @@
 
 					<div class='resume-item-content-text'>
 						Te digo tu verdadera situación financiera y los "pros y contras" de los planes que puedes seguir.
-					</div>					
+					</div>
 
 				</div>
 
 				<div class='resume-item-image'>
 					<lottie-player src="js/claras.json" class='lottie' background="transparent" speed="1" loop="" autoplay=""></lottie-player>
 <!-- 					<img src='images/cosas_claras_image.png' />
- -->				</div>				
+ -->				</div>
 
-			</div>			
+			</div>
 
 			<div class='resume-item row' style='padding-top: 20px;'>
 
@@ -357,7 +358,7 @@
 
 					<div class='resume-item-content-text'>
 						Comencemos con elegir un plan desde tu celular para pagar, liquidar o aumentar plazos de pago; tú decides.
-					</div>					
+					</div>
 
 				</div>
 
@@ -373,16 +374,16 @@
 
 					<div class='resume-item-content-text'>
 						Recupera el control de tus finanzas para crecer como quieres y mereces, ¡te doy las herramientas!
-					</div>					
+					</div>
 
 				</div>
 
 				<div class='resume-item-image'>
 					<lottie-player src="js/oportunidad.json" class='lottie' background="transparent" speed="1" loop="" autoplay=""></lottie-player>
 <!-- 					<img src='images/mas_oportunidades_image.png' />
- -->				</div>				
+ -->				</div>
 
-			</div>					
+			</div>
 
 		</div>
 
@@ -405,17 +406,17 @@
                 method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate">
 
 				<input type='email' name='EMAIL' id='mce-EMAIL' placeholder="Ingresa tu mail" required />
-				
+
 				<div style="position: absolute; left: -5000px;" aria-hidden="true">
                     <input type="text" name="b_fabd70ef5da2f266d30e78746_8e709718b0" tabindex="-1" value="">
                 </div>
 
 				<button class='button' type='submit'>Quiero saber más</button>
 
-			</form>			
+			</form>
 			<div class='cta-message'></div>
 		</div>
 
-	</section>	
-    
+	</section>
+
 </div>
