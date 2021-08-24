@@ -502,10 +502,9 @@
                 padding-bottom: 57px;
 
                 @media( max-width: $md ) {
-                  padding: 0px;
-                  max-width: 517px;
-                  width: 50%;
-                  padding-bottom: 57px;
+                    padding: 0px 14px 57px;
+                    margin-top: 24px;
+                    width: 100%;
                 }
 
                 img {
