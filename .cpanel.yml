@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ey63z7mzk4ww/public_html/oscarE/
+    - /bin/cp -r dist/* $DEPLOYPATH
